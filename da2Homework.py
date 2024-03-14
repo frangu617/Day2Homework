@@ -29,7 +29,7 @@ print(string_to_reverse,rev_string(string_to_reverse))
 def num_within(x, a, b):
     return x in range(a, b + 1)
     
-x = 6
+x = 5
 a = 2
 b = 4
 
