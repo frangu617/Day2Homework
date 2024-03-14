@@ -29,11 +29,11 @@ print(string_to_reverse,rev_string(string_to_reverse))
 def num_within(x, a, b):
     return x in range(a, b + 1)
     
-x = 5
+x = 6
 a = 2
 b = 4
 
-print(f'is {x} between {a} and {b}?',num_within(3, 2, 4))
+print(f'is {x} between {a} and {b}?',num_within(x, a, b))
 
 def pascal(n):
     row = [1]
